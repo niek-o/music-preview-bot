@@ -1,0 +1,35 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "eslint.useFlatConfig": true,
+    "eslint.format.enable": true,
+    "eslint.enable": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "config.jsonc",
+                "config.json"
+            ],
+            "url": "/.vscode/config.schema.json",
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/node_modules": true
+    },
+    "hide-files.files": []
+}
