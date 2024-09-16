@@ -9,6 +9,6 @@ export const handler = new Handler<DefaultTransformers, true>({
 });
 
 export const $applicationCommand = handler.storeCommand.bind(handler);
-export const $subCommand = handler.subCommandMock.bind(handler);
+export const $globalCommands = handler.loadGlobalCommands.bind(handler);
 export const $listener = handler.storeListener.bind(handler);
 export const $component = handler.buttonCollector.bind(handler);
